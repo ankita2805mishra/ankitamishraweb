@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    width: 100vw;
+    height: 100%;
+    background-position: center;
+    background-image:linear-gradient(rgba(0,0,0,0.9) ,rgba(0,0,0,0.9) ) ,url(img/background.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    
+    margin: 1%;
+    font-size: x-large;
+    color: antiquewhite;
+    cursor: pointer;
+    font-style: oblique;
+
+}
+.w{
+    color: darkgreen;
+    font-style: oblique;
+    font-size: xx-large;
+    font-family: monospace;
+    text-align: center;
+    padding: 2%;
+
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+ul li{
+    padding: 2rem;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.description{
+    color: azure;
+    padding:3%;
+text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+    
+    .front{
+        
+    }
+    
+    
+    
+
+
+
+
+.frontimage{
+    border-radius : 50%;
+    
+width : 50%;
+display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+}
+
+
+
+.column{
+  
+    
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    
+    
+    
+    
+
+ } 
+ .menuitems{
+
+display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+align-items: center;
+ }
+ .a{
+    font-size: medium;
+    color: aqua;
+    text-align: center;
+ }
+ img{
+    height: 60%;
+    width: 70%;
+    padding: 3%;
+    display: inline-block;
+
+
+    
+    
+ }  
+  .drinks{
+    font: size 20px;
+    color: blue;
+    font-style: calc();
+    text-align: center;
+ } 
+    
+
